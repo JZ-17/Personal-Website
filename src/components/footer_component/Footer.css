@@ -1,0 +1,15 @@
+/* Footer Section */
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent; 
+  }
+  
+  .footer-text {
+    font-size: 1rem;
+    color: #adb7be;
+    text-align: center;
+  }
+  

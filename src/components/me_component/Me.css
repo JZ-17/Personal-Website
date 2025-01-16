@@ -1,0 +1,163 @@
+/* Section Styling */
+.about-section {
+  color: #adb7be;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto -30px;
+  max-width: 1200px;
+}
+
+/* Section Header */
+.section-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.header-border {
+  width: 80px;
+  height: 3px;
+  background: white;
+  margin: 10px auto 0;
+}
+
+/* About Container */
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* About Content */
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  text-align: left;
+}
+
+.about-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #adb7be;
+}
+
+/* Tab Buttons */
+.tab-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tab-button {
+  background: transparent;
+  border: 2px solid #adb7be;
+  color: #adb7be;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: border-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tab-button:hover {
+  color: white;
+  border-color: white;
+}
+
+.tab-button.active {
+  box-shadow: 0px 8px 15px rgba(66, 133, 244, 0.5);
+  border-color: rgba(66, 133, 244, 0.9);
+  color: white;
+}
+
+/* Tab Content */
+.tab-content {
+  font-size: 1rem;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Tab List Styling */
+.tab-list {
+  padding-left: 1rem;
+  margin-top: 10px;
+  color: #adb7be;
+}
+
+.tab-list li {
+  margin-bottom: 10px;
+}
+
+/* Fade-In Effect */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(10px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Add transition for smooth content updates */
+.tab-content.fade {
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+/* Image Styling */
+.about-container img {
+  border-radius: 10px;
+  max-width: 300px;
+  height: auto;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .about-container {
+      flex-direction: column; 
+      align-items: center;
+  }
+
+  .about-content {
+      text-align: center;
+      align-items: center;
+  }
+
+  .tab-buttons {
+      justify-content: center; 
+  }
+}
+
+@media (max-width: 480px) {
+  .header-text {
+      font-size: 2rem; 
+  }
+
+  .about-description {
+      font-size: 1rem; 
+  }
+
+  .tab-button {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+  }
+
+  .about-container img {
+      max-width: 250px;
+  }
+}

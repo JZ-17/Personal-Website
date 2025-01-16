@@ -1,0 +1,64 @@
+/* Section Layout */
+.email-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 40px 20px;
+    margin: 0 auto;
+  }
+  
+  /* Section Header */
+  .section-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .header-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .header-border {
+    width: 80px;
+    height: 3px;
+    background: white;
+    margin: 10px auto 0;
+  }
+  
+  /* Email Text */
+  .email-text {
+    color: #adb7be;
+    font-size: 1.2rem;
+    margin: 0 auto 40px auto;
+    text-align: center;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Button Container */
+  .button-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-button {
+    background: transparent;
+    border: 2px solid #adb7be;
+    color: #adb7be;
+    padding: 20px 40px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: border-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    box-shadow: 0px 8px 15px rgba(66, 133, 244, 0.5);
+    border-color: rgba(66, 133, 244, 0.9);
+    color: white;
+  }
+
+  

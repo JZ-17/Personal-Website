@@ -1,0 +1,144 @@
+/* Base Styles */
+.hero-section {
+  position: relative;
+  min-height: calc(100vh - 180px);
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.hero-text {
+  flex: 1;
+  z-index: 2;
+  text-align: left;
+  padding-left: 5%;
+}
+
+.hero-title {
+  font-size: 5rem;
+  line-height: 1;
+  font-weight: bold;
+  color: white;
+}
+
+.hero-subtitle {
+  color: white;
+  font-size: 3rem;
+  margin-top: 10px;
+}
+
+.hero-description {
+  color: #adb7be;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.hero-buttons button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 2%;
+  background: transparent;
+  border: 2px solid #adb7be;
+  color: #adb7be;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: border-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-buttons button:hover {
+  box-shadow: 0px 8px 15px rgba(66, 133, 244, 0.5);
+  border-color: rgba(66, 133, 244, 0.9);
+  color: white;
+}
+
+.hero-astronaut {
+  flex: 1;
+  position: relative;
+  top: calc(15%);
+  left: calc(0%);
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  animation: bounce 4s infinite ease-in-out;
+}
+
+.astronaut-image {
+  width: 100%;
+  max-width: 5000px;
+  height: auto;
+  transform: scale(1.2);
+}
+
+@keyframes bounce {
+  0% {
+    transform: translate3d(0px, 0px, 0);
+  }
+  50% {
+    transform: translate3d(0px, -30px, 0);
+  }
+  100% {
+    transform: translate3d(0px, 0px, 0);
+  }
+}
+
+/* Link Styling */
+.link {
+  color: rgba(114, 161, 236, 0.9);
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: white;
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+  .hero-section {
+    margin-top: -25%;
+  }
+  .hero-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Center-align text for smaller screens */
+  }
+
+  .hero-text, .hero-title, .hero-description {
+    text-align: center;
+    padding: 0 5% 0 5% ;
+  }
+  .hero-subtitle {
+    display: none;
+  }
+
+  .hero-buttons {
+    justify-content: center; 
+    margin-bottom: -40%;
+  }
+
+  .hero-astronaut {
+    display: none; /* Hide astronaut image on smaller screens */
+  }
+}
+
+  

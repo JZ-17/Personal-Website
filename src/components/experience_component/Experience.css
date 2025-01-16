@@ -1,0 +1,131 @@
+/* Section Layout */
+.experience-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 40px 20px;
+  margin: 0 auto;
+}
+
+/* Section Header */
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.header-text {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.header-border {
+  background: white;
+  height: 2px;
+  border: none;
+  flex-grow: 1;
+}
+
+/* Cards Layout */
+.experience-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+}
+
+/* Experience Card */
+.experience-card {
+  background: rgba(28, 34, 49, 0.8);
+  border: 1px solid rgba(173, 183, 190, 0.4);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 24px;
+  width: 100%;
+  max-width: 800px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 8px 15px rgba(66, 133, 244, 0.5);
+  border-color: rgba(66, 133, 244, 0.9);
+}
+
+/* Text and Links */
+.experience-title {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.experience-card:hover .experience-title {
+  color: white;
+}
+
+.experience-company {
+  color: #adb7be;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.experience-card:hover .experience-company {
+  color: white;
+}
+
+/* List and Skills */
+.experience-list {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: disc;
+  color: #adb7be;
+}
+
+.experience-list-item {
+  color: #adb7be;
+  transition: color 0.3s ease;
+}
+
+.experience-card:hover .experience-list-item {
+  color: white;
+}
+
+/* Resume Button Container */
+.resume-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+/* Resume Button */
+.resume-button {
+  padding: 10px 20px;
+  font-size: 1rem; 
+  margin-top: -5%;
+  margin-bottom: -20%;
+  background: transparent;
+  border: 2px solid #adb7be;
+  color: #adb7be;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: border-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resume-button:hover {
+  box-shadow: 0px 8px 15px rgba(66, 133, 244, 0.5);
+  border-color: rgba(66, 133, 244, 0.9);
+  color: white;
+}
