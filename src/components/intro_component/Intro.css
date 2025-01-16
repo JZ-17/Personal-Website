@@ -115,7 +115,7 @@
 /* Media Query for Small Screens */
 @media (max-width: 768px) {
   .hero-section {
-    margin-top: -25%;
+    margin-top: -20%;
   }
   .hero-container {
     flex-direction: column;

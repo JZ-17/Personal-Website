@@ -11,6 +11,7 @@ import "@/app/globals.css";
 import Footer from "@/components/footer_component/footer";
 
 
+
 export default function Home() {
   useEffect(() => {
     const starContainer = document.getElementById("stars-container");
@@ -29,21 +30,21 @@ export default function Home() {
 
   return (
     <>
-      {/* Background Stars */}
-      <div id="stars-container"></div>
+        {/* Background Stars */}
+        <div id="stars-container"></div>
 
-      {/* Main Content */}
-      <main className="flex min-h-screen flex-col">
-        <div className="container mt-24 mx-auto px-12 py-4">
-          <Navbar />
-          <Intro />
-          <Me />
-          <Experience />
-          <Projects project = { projectData }/>
-          <Email />
-          <Footer />
-        </div>
-      </main>
+        {/* Main Content */}
+        <main className="flex min-h-screen flex-col">
+          <div className="container mt-24 mx-auto px-12 py-4">
+            <Navbar />
+            <Intro />
+            <Me />
+            <Experience />
+            <Projects project = { projectData }/>
+            <Email />
+            <Footer />
+          </div>
+        </main>
     </>
   );
 }
