@@ -1,10 +1,7 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 import "@/components/experience_component/Experience.css";
-import ProfilePNG from "@/components/experience_component/Spaceman_2.png";
 import { experiences } from "@/components/experience_component/experiences";
-import { motion } from "framer-motion";
 import Link from "next/link";
 
 export default function Experience() {
