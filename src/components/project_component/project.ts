@@ -36,9 +36,9 @@ export const project = [
       company: "Personal Project",
       award: null,
       accomplishment:
-        "Developed a random forest algorithm that predicts GHG emissions of buildings in Cambridge, MA with an OOB R-squared of 0.70 and RMSE of 0.373.",
+        "Developed a random forest algorithm that predicts GHG emissions of buildings in Cambridge, MA with an OOB R-Squared of 0.70 and RMSE of 0.373.",
       actions: [
-        "Utilized the 2022 Cambridge BEUDO dataset to develop a random forest algorithm that predicts GHG emissions of buildings in Cambridge, MA with an R-squared value of 0.70, RMSE of 0.373, and train R-squared of 0.861.",
+        "Utilized the 2022 Cambridge BEUDO dataset to develop a random forest algorithm that predicts GHG emissions of buildings in Cambridge, MA with an OOB R-Squared value of 0.70, RMSE of 0.373, and Train R-Squared of 0.861.",
         "Used OOB error to determine the optimal number of trees and max depth of the random forest to maximize generalization against unseen data.",
         "Utilized Lasso and Ridge Regressions to determine predictor significance.",
       ],
@@ -53,7 +53,7 @@ export const project = [
       company: "Personal Project",
       award: null,
       accomplishment:
-        "Developed fixed-effects regression models to predict bank profitability (Adj. R-squared: 0.987) and stability (Adj. R-squared: 0.110), with interpretations of results.",
+        "Developed fixed-effects regression models to predict bank profitability (Adj. R-Squared: 0.987) and stability (Adj. R-Squared: 0.110), with interpretations of results.",
       actions: [
         "Processed FFIEC Call Report data by handling mergers, filtering for banks with assets exceeding $1 billion, and identifying target variables for profitability and stability predictions.",
         "Implemented Ridge and Lasso regressions to optimize variable selection and improve model accuracy.",
@@ -66,22 +66,37 @@ export const project = [
       priority: false,
     },
     {
+      title: "Ramen Rampage",
+      company: "Personal Project",
+      award: null,
+      accomplishment: "Created a clicker hero style game utilzing Swift and Xcode.",
+      actions: [
+        "Utilized Swift and Xcode to develop a clicker hero style game where players click to earn money and buy upgrades to increase their ramen production.",
+        "Created custom pixel art and animations for the game.",
+      ],
+      skills: ["Swift", "Xcode"],
+      link: null,
+      github: "https://github.com/JZ-17/Ramen-Rampage",
+      paper: null,
+      priority: false,
+    },
+    {
       title: "This website :)",
       company: "Personal Project",
       award: null,
       accomplishment: "Created a personal website using Next.js and React.",
       actions: [
-        "Used Next.js and React to develop a personal website showcasing my projects, experiences, and contact information.",
+        "Used Next.js and React to develop a personal website showcasing my experiences, projects, hobbies, and contact information.",
+        "Implemented Tailwind CSS for styling and Framer Motion for animations.",
       ],
-      skills: ["Next JS", "React", "Typescript", "Tailwind CSS", "Framer Motion"],
+      skills: ["Next JS", "React", "Typescript", "Javascript", "Tailwind CSS", "Framer Motion"],
       link: "https://joshzhang.tech",
       github: "https://github.com/JZ-17/CS109A_Final_Project",
       paper: null,
       priority: false,
     },
     {
-      title:
-        "Formulating the Optimal Fire Extinguisher Using Low Bass Frequency",
+      title: "Formulating the Optimal Fire Extinguisher Using Low Bass Frequency",
       company: "Virginia State Science and Engineering Fair",
       award: "1st Place in the Environmental Engineering Category",
       accomplishment:

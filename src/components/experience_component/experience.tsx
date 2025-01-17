@@ -24,7 +24,7 @@ export default function Experience() {
             className="experience-card"
           >
             <a
-              href={job.link}
+              href={job.link ? job.link : ""}
               target="_blank"
               rel="noopener noreferrer"
               className="experience-link"
