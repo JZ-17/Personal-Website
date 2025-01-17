@@ -69,9 +69,9 @@ export const project = [
       title: "Ramen Rampage",
       company: "Personal Project",
       award: null,
-      accomplishment: "Created a clicker hero style game utilzing Swift and Xcode.",
+      accomplishment: "Created a incremental-style game utilzing Swift and Xcode and custom-made graphics.",
       actions: [
-        "Utilized Swift and Xcode to develop a clicker hero style game where players click to earn money and buy upgrades to increase their ramen production.",
+        "Utilized Swift and Xcode to develop an incremental-style game where players click to make ramen and upgrade their ramen shop in hopes of becoming the world's greatest ramen maker :)",
         "Created custom pixel art and animations for the game.",
       ],
       skills: ["Swift", "Xcode"],
