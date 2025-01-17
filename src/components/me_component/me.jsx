@@ -9,7 +9,7 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc tab-list">
-        <li>Programming Languages: Python, R, Typescript/JavaScript, C++, Swift, SQL</li>
+        <li>Programming Languages: Python, R, JavaScript, C++, Swift, SQL</li>
         <li>Machine Learning Frameworks: Scikit-Learn, TensorFlow, PyTorch</li>
         <li>Front-End Development: React, Redux, Firebase, Tailwind, CSS</li>
         <li>Data Analysis: Pandas, Matplotlib, Seaborn, StatsModels</li>
