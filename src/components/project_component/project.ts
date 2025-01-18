@@ -13,7 +13,21 @@ export const project = [
       link: "https://monch.tech",
       github: "https://github.com/jacksonmoody/monch?tab=readme-ov-file",
       paper: null,
-      priority: true,
+    },
+    {
+      title: "Caption Capturer",
+      company: "Personal Project",
+      accomplishment:
+        "Developed and deployed a multi-language Chrome extension leveraging the Web Speech API and virtual audio mixers to provide real-time, accurate speech-to-text captions, complete with a dynamic overlay and timeout-based removal for seamless user experience",
+      actions: [
+        "Implemented multi-language selection functionality to provide seamless support for various languages",
+        "Designed a timeout-based algorithm to dynamically manage and remove caption overlays after periods of inactivity, ensuring a clean and non-intrusive user experience",
+        "Created an ergonomic front-end interface enabling users to toggle captions on or off, select their preferred language, and receive notifications if the website's security measures restrict extension functionality",
+      ],
+      skills: ["Javascript", "WebKitSpeechRecognition API", "Chrome Extensions API", "HTML", "CSS", "Audio Manipulation"],
+      link: null,
+      github: "https://github.com/JZ-17/Caption-Capturer",
+      paper: null,
     },
     {
       title: "Climate Agriculture Food Project",
@@ -29,7 +43,6 @@ export const project = [
       link: null,
       github: "https://github.com/JZ-17/Climate-Agriculture-Food-Data-Project",
       paper: "/papers/HDSI_Datathon.pdf",
-      priority: false,
     },
     {
       title: "Cambridge GHG Predictions",
@@ -46,7 +59,6 @@ export const project = [
       link: null,
       github: "https://github.com/JZ-17/GHG-Emissions-Predictor-Project",
       paper: "/papers/CS109a.pdf",
-      priority: false,
     },
     {
       title: "Decoding Bank Profitability and Stability",
@@ -63,7 +75,6 @@ export const project = [
       link: null,
       github: "https://github.com/JZ-17/Decoding-Bank-Profitability-and-Stability",
       paper: "/papers/Stat_139_Final_Project.pdf",
-      priority: false,
     },
     {
       title: "Ramen Rampage",
@@ -78,7 +89,6 @@ export const project = [
       link: null,
       github: "https://github.com/JZ-17/Ramen-Rampage",
       paper: null,
-      priority: false,
     },
     {
       title: "This Website :)",
@@ -94,7 +104,6 @@ export const project = [
       link: "https://joshzhang.tech",
       github: "https://github.com/JZ-17/CS109A_Final_Project",
       paper: null,
-      priority: false,
     },
     {
       title: "Formulating the Optimal Fire Extinguisher Using Low Bass Frequency",
@@ -110,7 +119,6 @@ export const project = [
       link: "https://www.youtube.com/watch?v=E5WvfYGh_sM",
       github: null,
       paper: null,
-      priority: false,
     },
   ];
   
