@@ -20,7 +20,7 @@ export const project = [
       accomplishment:
         "Developed and deployed a multi-language Chrome extension leveraging the Web Speech API and virtual audio mixers to provide real-time, accurate speech-to-text captions, complete with a dynamic overlay and timeout-based removal for seamless user experience",
       actions: [
-        "Utilized the Chrome Extensions API (e.g., chrome.runtime, chrome.scripting, chrome.tabs) to implement dynamic content script injection, manage inter-component communication, and ensure compatibility with user-selected tabs and websites",
+        "Utilized the Chrome Extension APIs to implement dynamic content script injection, manage inter-component communication, and ensure compatibility with user-selected tabs and websites",
         "Implemented multi-language selection functionality to provide seamless support for various languages",
         "Designed a timeout-based algorithm to dynamically manage and remove caption overlays after periods of inactivity, ensuring a clean and non-intrusive user experience",
         "Created an ergonomic front-end interface enabling users to toggle captions on or off, select their preferred language, and receive notifications if the website's security measures restrict extension functionality",
