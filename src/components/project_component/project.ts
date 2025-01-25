@@ -26,7 +26,7 @@ export const project = [
         "Created an ergonomic front-end interface enabling users to toggle captions on or off, select their preferred language, and receive notifications if the website's security measures restrict extension functionality",
       ],
       skills: ["Javascript", "WebKitSpeechRecognition API", "Chrome Extensions API", "HTML", "CSS", "Audio Manipulation"],
-      link: null,
+      link: "https://chromewebstore.google.com/detail/caption-capturer/fmnjkgbnemdihoibnkojnbfbbmbacfkf?authuser=1&hl=en",
       github: "https://github.com/JZ-17/Caption-Capturer",
       paper: null,
     },
