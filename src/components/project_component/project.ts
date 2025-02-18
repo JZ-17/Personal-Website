@@ -50,7 +50,7 @@ export const project = [
       company: "Harvard Computer Society",
       award: null,
       accomplishment:
-        "Implemented new interactive chatbot feature Cupid with OpenAI's Assistant API with a custom-made front-end interface and redesigned the Datamatch website's home page layout, enhancing the experience for over 20K users seeking love for Valentine's Day",
+        "Implemented a new interactive chatbot feature Cupid with OpenAI's Assistant API with a custom-made front-end interface and redesigned the Datamatch website's home page layout, enhancing the experience for over 20K users seeking love for Valentine's Day",
       actions: [
         "Integrated OpenAI's Assistant API to develop Cupid, an interactive chatbot that provides snarky love advice",
         "Rigorously stress-tested Cupid and the website's security to ensure maximum user satisfaction and uphold the highest standards of user privacy",
