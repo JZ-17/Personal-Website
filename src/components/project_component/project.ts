@@ -46,6 +46,22 @@ export const project = [
       paper: "/papers/HDSI_Datathon.pdf",
     },
     {
+      title: "Datamatch",
+      company: "Harvard Computer Society",
+      award: null,
+      accomplishment:
+        "Redesigned the Datamatch website's home page layout and implemented various new features, enhancing the experience for over 20K users seeking love for Valentine's Day",
+      actions: [
+        "Integrated OpenAI's Assistant API to develop Cupid, an interactive chatbot that provides snarky love advice",
+        "Rigorously stress-tested Cupid and the website's security to ensure maximum user satisfaction and uphold the highest standards of user privacy",
+        "Designed a front-end interface for Cupid filled with custom pixel-art style graphics",
+      ],
+      skills: ["Python", "Javascript", "React", "Firebase", "Redux", "OpenAI Assistants API"],
+      link: 'datamatch.me',
+      github: null,
+      paper: null,
+    },
+    {
       title: "Cambridge GHG Predictions",
       company: "Personal Project",
       award: null,
