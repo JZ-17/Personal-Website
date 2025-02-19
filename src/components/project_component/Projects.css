@@ -153,6 +153,7 @@ body.modal-open {
   text-align: left;
   position: relative;
   z-index: 10000001;
+  overflow-y: auto;
 }
 
 /* Modal Title */
