@@ -47,19 +47,13 @@ export default function Home() {
       {/* Main Content */}
       <main className="flex min-h-screen flex-col">
         <div className="container mt-24 mx-auto px-12 py-4">
-
             <Navbar />
-            <motion.div initial="hidden" animate="visible" variants={fadeInUp}>
-              <Intro />
-              <Me />
-              <Experience />
-            </motion.div>
+            <Intro />
+            <Me />
+            <Experience />
             <Projects project={projectData} />
-            <motion.div initial="hidden" animate="visible" variants={fadeInUp}>
-              <Email />
-              <Footer />
-            </motion.div>
-
+            <Email />
+            <Footer />
         </div>
       </main>
     </>
