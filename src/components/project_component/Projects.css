@@ -160,7 +160,9 @@ body.modal-open {
 
 /* Modal Title */
 .modal-title-container {
-  word-break: break-word;
+  display: flex;
+  flex-direction: column;
+  max-width: calc(100% - 60px);
 }
 
 .modal-title {
@@ -169,9 +171,9 @@ body.modal-open {
   color: white;
   margin-bottom: 10px;
   max-width: 80%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 
 .modal-company {
