@@ -148,6 +148,7 @@ body.modal-open {
   padding: 20px;
   width: 90%;
   max-width: 500px;
+  max-height: 80vh;
   color: #adb7be;
   text-align: left;
   position: relative;
@@ -251,4 +252,31 @@ body.modal-open {
 /* Prevent background scrolling when modal is open */
 body.modal-open {
   overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .modal-content {
+    width: 90%;
+    max-width: 90vw;
+    padding: 15px;
+    max-height: 75vh;
+  }
+}
+
+/* Ensure the close button is still accessible */
+.modal-close {
+  background: rgba(114, 161, 236, 0.9);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 14px;
+}
+
+.modal-close:hover {
+  background: rgba(66, 133, 244, 0.9);
 }
