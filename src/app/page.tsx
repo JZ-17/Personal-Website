@@ -59,6 +59,7 @@ export default function Home() {
               <Email />
               <Footer />
             </motion.div>
+
         </div>
       </main>
     </>

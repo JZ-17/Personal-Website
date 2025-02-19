@@ -6,6 +6,7 @@
     width: 100%;
     padding: 40px 20px;
     margin: 0 auto;
+    z-index: 5;
   }
   
   /* Section Header */
