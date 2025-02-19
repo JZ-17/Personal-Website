@@ -79,7 +79,9 @@ const Projects = ({ project }) => {
       {selectedProject && (
         <div className="modal-overlay" onClick={closeModal}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+          <div className="modal-title-container">
             <h3 className="modal-title">{selectedProject.title}</h3>
+          </div>
             <h4 className="modal-company">{selectedProject.company}</h4>
             {selectedProject.award && (
               <p className="modal-award">{selectedProject.award}</p>

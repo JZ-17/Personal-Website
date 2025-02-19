@@ -141,11 +141,13 @@ body.modal-open {
   overflow: hidden;
 }
 
+
+
 /* Modal Content */
 .modal-content {
   background: #1c2231;
   border-radius: 8px;
-  padding: 20px;
+  padding: 20px 50px 20px 20px;
   width: 90%;
   max-width: 500px;
   max-height: 80vh;
@@ -157,11 +159,19 @@ body.modal-open {
 }
 
 /* Modal Title */
+.modal-title-container {
+  word-break: break-word;
+}
+
 .modal-title {
   font-size: 1.5rem;
   font-weight: bold;
   color: white;
   margin-bottom: 10px;
+  max-width: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .modal-company {
@@ -216,7 +226,7 @@ body.modal-open {
   color: white;
   border: none;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 10px 15px;
   cursor: pointer;
   position: absolute;
   top: 10px;
