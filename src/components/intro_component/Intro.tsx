@@ -9,7 +9,7 @@ import "@/components/intro_component/Intro.css";
 
 const Intro = () => {
   return (
-    <section className="hero-section">
+    <section className="hero-section" id="intro">
       <div className="hero-container">
         {/* Text Section */}
         <motion.div

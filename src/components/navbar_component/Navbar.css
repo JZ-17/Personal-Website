@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 .navbar {
   position: fixed;
   top: 10px;
@@ -35,6 +40,7 @@
 
 .logo-icon:hover {
   transform: translateY(-3px);
+  filter: drop-shadow(0px 3px 10px rgba(114, 161, 236, 0.9));
 }
 
 .navbar-links {
@@ -53,6 +59,7 @@
 
 .navbar-link:hover {
   color: rgba(114, 161, 236, 0.9);
+  filter: drop-shadow(0px 3px 10px rgba(114, 161, 236, 0.9));
   transform: translateY(-3px);
 }
 
@@ -71,6 +78,7 @@
 .icon-link:hover {
   color: rgba(114, 161, 236, 0.9);
   transform: translateY(-2px);
+  filter: drop-shadow(0px 3px 10px rgba(114, 161, 236, 0.9));
 }
 
 /* Responsive Behavior */

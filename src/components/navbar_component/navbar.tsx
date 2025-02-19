@@ -13,13 +13,21 @@ const navLinks = [
   { title: "Contact Me", path: "#contact" },
 ];
 
+const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>, targetId: string) => {
+  e.preventDefault();
+  const targetElement = document.querySelector(targetId);
+  if (targetElement) {
+    targetElement.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+};
+
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
         {/* Logo */}
         <div className="navbar-logo">
-          <Link href="#">
+          <Link href="#" onClick={(e) => handleScroll(e, '#intro')}>
             <img
               src="/images/navbar_logo.png"
               className="logo-icon"
@@ -30,7 +38,7 @@ const Navbar = () => {
         {/* Navigation Links */}
         <div className="navbar-links">
           {navLinks.map((link, index) => (
-            <a key={index} href={link.path} className="navbar-link">
+            <a key={index} href={link.path} className="navbar-link" onClick={(e) => handleScroll(e, link.path)}>
               {link.title}
             </a>
           ))}

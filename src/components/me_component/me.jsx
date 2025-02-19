@@ -1,9 +1,9 @@
 "use client";
-import React, { useTransition, useState } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import "@/components/me_component/Me.css";
 
-const TAB_DATA = [
+const tab_data = [
   {
     title: "Skills",
     id: "skills",
@@ -22,8 +22,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc tab-list">
-        <li>Harvard College Computer Science Honors B.A. (Expected 2026)</li>
-        <li>Harvard College Statistics B.A. (Expected 2026)</li>
+        <li>Harvard College Computer Science Honors Bachelors of Arts (Expected 2026)</li>
+        <li>Harvard College Statistics Bachelors of Arts (Expected 2026)</li>
         <li>Harvard College Education Studies Secondary (Expected 2026)</li>
         <li>Harvard College Chinese Language Citation</li>
         <li>Albemarle High School</li>
@@ -47,12 +47,16 @@ const TAB_DATA = [
 
 const Me = () => {
   const [tab, setTab] = useState("skills");
-  const [isPending, startTransition] = useTransition();
+  const [isFading, setIsFading] = useState(false);
 
   const handleTabChange = (id) => {
-    startTransition(() => {
-      setTab(id);
-    });
+    if (tab === id) return;
+
+    setIsFading(true);
+    setTimeout(() => {
+      setTab(id); 
+      setIsFading(false); 
+    }, 300);
   };
 
   return (
@@ -71,7 +75,7 @@ const Me = () => {
             Currently, I am extremely interested in learning much more about software engineering, data engineering, and machine learning, but I am very eager to learn about other miscellaneous tech-related topics outside of my scope :)
           </p>
           <div className="tab-buttons">
-            {TAB_DATA.map((tabData) => (
+            {tab_data.map((tabData) => (
               <button
                 key={tabData.id}
                 onClick={() => handleTabChange(tabData.id)}
@@ -81,8 +85,8 @@ const Me = () => {
               </button>
             ))}
           </div>
-          <div className={`tab-content ${isPending ? "fade" : ""}`}>
-            {TAB_DATA.find((t) => t.id === tab).content}
+          <div className={`tab-content ${isFading ? "fade-out" : "fade-in"}`}>
+            {tab_data.find((t) => t.id === tab).content}
           </div>
         </div>
       </div>

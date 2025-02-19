@@ -15,7 +15,7 @@
   justify-content: center;
   gap: 20px;
   width: 100%;
-  max-width: 900px;
+  max-width: 1000px;
   margin-bottom: 40px;
   text-align: center;
 }
@@ -39,7 +39,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 900px;
+  max-width: 80%;
 }
 
 /* Experience Card */
@@ -50,7 +50,7 @@
   padding: 20px;
   margin-bottom: 24px;
   width: 100%;
-  max-width: 800px;
+  max-width: 80%;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
