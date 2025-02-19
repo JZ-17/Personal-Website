@@ -28,13 +28,13 @@ const Projects = ({ project }) => {
   // Open modal
   const openModal = (proj) => {
     setSelectedProject(proj);
-    document.body.classList.add("modal-open"); // Prevent scrolling
+    document.body.classList.remove("modal-open"); 
   };
 
   // Close modal
   const closeModal = () => {
     setSelectedProject(null);
-    document.body.classList.remove("modal-open"); // Restore scrolling
+    document.body.classList.remove("modal-open");
   };
 
   return (
