@@ -28,7 +28,7 @@ const Projects = ({ project }) => {
   // Open modal
   const openModal = (proj) => {
     setSelectedProject(proj);
-    document.body.classList.remove("modal-open"); 
+    document.body.classList.add("modal-open"); 
   };
 
   // Close modal
