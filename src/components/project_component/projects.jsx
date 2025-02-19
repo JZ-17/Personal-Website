@@ -5,7 +5,6 @@ import "@/components/project_component/Projects.css";
 const Projects = ({ project }) => {
   const [showAll, setShowAll] = useState(false);
   const [fadeOut, setFadeOut] = useState(false);
-  const [buttonFadeOut, setButtonFadeOut] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
   const [visibleProjects, setVisibleProjects] = useState(project.slice(0, 3));
 
@@ -17,7 +16,7 @@ const Projects = ({ project }) => {
       setTimeout(() => {
         setVisibleProjects(project.slice(0, 3));
         setFadeOut(false);
-      }, 500); // Match the fadeOut animation duration
+      }, 500); // Match fadeOut animation duration
     }
   }, [showAll, project]);
 
@@ -26,14 +25,16 @@ const Projects = ({ project }) => {
     setShowAll(!showAll);
   };
 
-  // Open modal for the selected project
+  // Open modal
   const openModal = (proj) => {
     setSelectedProject(proj);
+    document.body.classList.add("modal-open"); // Prevent scrolling
   };
 
   // Close modal
   const closeModal = () => {
     setSelectedProject(null);
+    document.body.classList.remove("modal-open"); // Restore scrolling
   };
 
   return (
@@ -48,7 +49,7 @@ const Projects = ({ project }) => {
       <div className="projects-grid">
         {visibleProjects.map((proj, id) => (
           <div
-            className={`project-card ${fadeOut ? "fade-out" : ""}`}
+            className={`project-card ${fadeOut ? "fade-out" : "fade-in"}`}
             key={id}
             onClick={() => openModal(proj)}
           >
@@ -68,7 +69,7 @@ const Projects = ({ project }) => {
       </div>
 
       {/* Toggle Button */}
-      <div className={`toggle-button ${buttonFadeOut ? "fade-out" : ""}`}>
+      <div className="toggle-button">
         <button onClick={toggleShowAll}>
           {showAll ? "View Less" : "View More"}
         </button>

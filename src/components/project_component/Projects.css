@@ -1,242 +1,254 @@
 /* Projects Container */
 .projects-container {
-    padding: 40px 20px;
-    margin: 0 auto;
-    max-width: 1200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  /* Section Header */
-  .section-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    width: 100%;
-    max-width: 900px;
-    margin-bottom: 40px;
-    text-align: center;
-  }
-  
-  /* Projects Grid */
-  .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 15px;
-    width: 100%;
-    justify-content: center;
-  }
-  
-  /* Project Card */
-  .project-card {
-    background: rgba(28, 34, 49, 0.8);
-    border: 1px solid rgba(173, 183, 190, 0.4);
-    border-radius: 8px;
-    padding: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    justify-content: center;
-    animation: fadeIn 0.5s ease forwards;
-  }
+  padding: 40px 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-  .project-card.fade-out {
-    animation: fadeOut 0.5s ease forwards;
-  }
-  
-  .project-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0px 8px 15px rgba(66, 133, 244, 0.5);
-    border-color: rgba(66, 133, 244, 0.9);
-  }
-  
-  /* Card Text */
-  .project-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: white;
-  }
-  
-  .project-company {
-    font-size: 1.2rem;
-    color: #adb7be;
-    margin-bottom: 10px;
-  }
-  
-  .project-award {
-    font-size: 1rem;
-    color: #ffd700;
-    margin-bottom: 10px;
-  }
-  
-  .project-accomplishment {
-    font-size: 1rem;
-    color: #adb7be;
-    margin-bottom: 10px;
-  }
-  
-  .project-skills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-  
-  .project-skill {
-    background: rgba(66, 133, 244, 0.15);
-    color: rgb(114, 161, 236);
-    border-radius: 4px;
-    padding: 4px 8px;
-    font-size: 0.875rem;
-  }
-  
-  /* Toggle Button */
-  .toggle-button {
-    margin-top: 20px;
-  }
-  
-  .toggle-button button {
-    padding: 10px 20px;
-    font-size: 1rem; 
-    margin-top: 10%;
-    margin-bottom: -20%;
-    background: transparent;
-    border: 2px solid #adb7be;
-    color: #adb7be;
-    padding: 10px 20px;
-    font-size: 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: border-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
-    animation: fadeIn 0.5s ease forwards;
-  }
+/* Section Header */
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 40px;
+  text-align: center;
+}
 
-  .toggle-button.fade-out {
-    animation: fadeOut 0.5s ease forwards;
-  }
-  
-  .toggle-button button:hover {
-    box-shadow: 0px 8px 15px rgba(66, 133, 244, 0.5);
-    border-color: rgba(66, 133, 244, 0.9);
-    color: white;
-  }
+/* Projects Grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+}
 
-/* Modal Overlay */
+/* Project Card */
+.project-card {
+  background: rgba(28, 34, 49, 0.8);
+  border: 1px solid rgba(173, 183, 190, 0.4);
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  justify-content: center;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.project-card.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.project-card.fade-out {
+  animation: fadeOut 0.5s ease-in-out;
+}
+
+/* Hover Effect */
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 8px 15px rgba(66, 133, 244, 0.5);
+  border-color: rgba(66, 133, 244, 0.9);
+}
+
+/* Card Text */
+.project-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.project-company {
+  font-size: 1.2rem;
+  color: #adb7be;
+  margin-bottom: 10px;
+}
+
+.project-award {
+  font-size: 1rem;
+  color: #ffd700;
+  margin-bottom: 10px;
+}
+
+.project-accomplishment {
+  font-size: 1rem;
+  color: #adb7be;
+  margin-bottom: 10px;
+}
+
+.project-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.project-skill {
+  background: rgba(66, 133, 244, 0.15);
+  color: rgb(114, 161, 236);
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 0.875rem;
+}
+
+/* Toggle Button */
+.toggle-button {
+  margin-top: 20px;
+}
+
+.toggle-button button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 10%;
+  margin-bottom: -20%;
+  background: transparent;
+  border: 2px solid #adb7be;
+  color: #adb7be;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: border-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.toggle-button button:hover {
+  box-shadow: 0px 8px 15px rgba(66, 133, 244, 0.5);
+  border-color: rgba(66, 133, 244, 0.9);
+  color: white;
+}
+
+/* Full-Screen Modal Overlay */
 .modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1000;
-  }
-  
-  /* Modal Content */
-  .modal-content {
-    background: #1c2231;
-    border-radius: 8px;
-    padding: 20px;
-    width: 90%;
-    max-width: 500px;
-    color: #adb7be;
-    text-align: left;
-    position: relative;
-  }
-  
-  /* Modal Title */
-  .modal-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: white;
-    margin-bottom: 10px;
-  }
-  
-  .modal-company {
-    font-size: 1.2rem;
-    color: #adb7be;
-    margin-bottom: 10px;
-  }
-  
-  .modal-award {
-    font-size: 1rem;
-    color: #ffd700;
-    margin-bottom: 10px;
-  }
-  
-  .modal-accomplishment {
-    margin-bottom: 20px;
-  }
-  
-  /* Modal Actions */
-  .modal-actions {
-    margin-bottom: 20px;
-  }
-  
-  .modal-actions li {
-    margin-bottom: 8px;
-  }
-  
-  /* Modal Links */
-  .modal-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  
-  .modal-link {
-    color: rgba(114, 161, 236, 0.9);
-    text-decoration: none;
-    font-size: 1rem;
-    background: rgba(46, 156, 202, 0.15);
-    padding: 5px 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .modal-link:hover {
-    background: rgba(46, 156, 202, 0.3);
-  }
-  
-  /* Close Button */
-  .modal-close {
-    background: rgba(114, 161, 236, 0.9);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
-  
-  .modal-close:hover {
-    background: rgba(66, 133, 244, 0.9);
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px); 
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  z-index: 10000000000000000000000000000;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
 
-  /* Fade in and out animations*/
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(10px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
+/* Prevent Background Scrolling When Modal is Open */
+body.modal-open {
+  overflow: hidden;
+}
+
+/* Modal Content */
+.modal-content {
+  background: #1c2231;
+  border-radius: 8px;
+  padding: 20px;
+  width: 90%;
+  max-width: 500px;
+  color: #adb7be;
+  text-align: left;
+  position: relative;
+  z-index: 10001;
+}
+
+/* Modal Title */
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.modal-company {
+  font-size: 1.2rem;
+  color: #adb7be;
+  margin-bottom: 10px;
+}
+
+.modal-award {
+  font-size: 1rem;
+  color: #ffd700;
+  margin-bottom: 10px;
+}
+
+.modal-accomplishment {
+  margin-bottom: 20px;
+}
+
+/* Modal Actions */
+.modal-actions {
+  margin-bottom: 20px;
+}
+
+.modal-actions li {
+  margin-bottom: 8px;
+}
+
+/* Modal Links */
+.modal-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.modal-link {
+  color: rgba(114, 161, 236, 0.9);
+  text-decoration: none;
+  font-size: 1rem;
+  background: rgba(46, 156, 202, 0.15);
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.modal-link:hover {
+  background: rgba(46, 156, 202, 0.3);
+}
+
+/* Close Button */
+.modal-close {
+  background: rgba(114, 161, 236, 0.9);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.modal-close:hover {
+  background: rgba(66, 133, 244, 0.9);
+}
+
+/* Fade Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
   }
-  
-  @keyframes fadeOut {
-    from {
-      opacity: 1;
-      transform: translateY(0);
-    }
-    to {
-      opacity: 0;
-      transform: translateY(10px);
-    }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+/* Prevent background scrolling when modal is open */
+body.modal-open {
+  overflow: hidden;
+}

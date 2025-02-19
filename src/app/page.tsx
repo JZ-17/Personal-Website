@@ -41,32 +41,24 @@ export default function Home() {
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
+        style={{ position: "fixed", top: 0, left: 0, zIndex: -1 }}
       ></motion.div>
 
       {/* Main Content */}
       <main className="flex min-h-screen flex-col">
         <div className="container mt-24 mx-auto px-12 py-4">
           <Navbar />
-          <motion.div initial="hidden" animate="visible" variants={fadeInUp}>
             <Intro />
-          </motion.div>
-          <motion.div initial="hidden" animate="visible" variants={fadeInUp}>
             <Me />
-          </motion.div>
-          <motion.div initial="hidden" animate="visible" variants={fadeInUp}>
             <Experience />
-          </motion.div>
-          <motion.div initial="hidden" animate="visible" variants={fadeInUp}>
             <Projects project={projectData} />
-          </motion.div>
-          <motion.div initial="hidden" animate="visible" variants={fadeInUp}>
             <Email />
-          </motion.div>
-          <motion.div initial="hidden" animate="visible" variants={fadeInUp}>
             <Footer />
-          </motion.div>
         </div>
       </main>
+
+      {/* Modal Outside of Motion Div */}
+      <Projects project={projectData} />
     </>
   );
 }
