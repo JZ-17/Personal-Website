@@ -131,7 +131,7 @@
   display: flex;
   align-items: center;
   justify-content: center; 
-  z-index: 10000000000000000000000000000;
+  z-index: 1000;
   opacity: 1;
   transition: opacity 0.3s ease-in-out;
 }
@@ -154,7 +154,7 @@ body.modal-open {
   color: #adb7be;
   text-align: left;
   position: relative;
-  z-index: 1000000000000000000000000000000000000000001;
+  z-index: 1000;
   overflow-y: auto;
 }
 
