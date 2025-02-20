@@ -149,14 +149,8 @@
   z-index: 1000;
   opacity: 1;
   transition: opacity 0.3s ease-in-out;
+  animation: modalFadeIn 0.3s ease-out;
 }
-
-/* Prevent Background Scrolling When Modal is Open */
-body.modal-open {
-  overflow: hidden;
-}
-
-
 
 /* Modal Content */
 .modal-content {
@@ -171,6 +165,21 @@ body.modal-open {
   position: relative;
   z-index: 1000;
   overflow-y: auto;
+  animation: modalFadeIn 0.3s ease-out;
+}
+
+/* Hide Modal Smoothly */
+.modal-hide .modal-content {
+  animation: modalFadeOut 0.3s ease-in forwards;
+}
+
+.modal-hide .modal-overlay {
+  animation: modalFadeOut 0.3s ease-in forwards;
+}
+
+/* Prevent Background Scrolling When Modal is Open */
+body.modal-open {
+  overflow: hidden;
 }
 
 /* Modal Title */
@@ -274,6 +283,29 @@ body.modal-open {
   to {
     opacity: 0;
     transform: translateY(10px);
+  }
+}
+
+/* Modal Fade in and out */ 
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes modalFadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-20px);
   }
 }
 

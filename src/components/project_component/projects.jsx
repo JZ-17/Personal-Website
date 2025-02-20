@@ -33,9 +33,15 @@ const Projects = ({ project }) => {
   };
 
   // Close modal
+  const [isClosing, setIsClosing] = useState(false);
+
   const closeModal = () => {
-    setSelectedProject(null);
-    document.body.classList.remove("modal-open");
+    setIsClosing(true);
+    setTimeout(() => {
+      setSelectedProject(null);
+      setIsClosing(false);
+      document.body.classList.remove("modal-open");
+    }, 300); // Matches CSS animation duration
   };
 
   return (
@@ -78,7 +84,7 @@ const Projects = ({ project }) => {
 
       {/* Modal */}
       {selectedProject && (
-        <div className="modal-overlay" onClick={closeModal}>
+        <div className={`modal-overlay ${isClosing ? "modal-hide" : ""}`} onClick={closeModal}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
           <div className="modal-title-container">
             <h3 className="modal-title">{selectedProject.title}</h3>
