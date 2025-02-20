@@ -154,7 +154,7 @@ body.modal-open {
   color: #adb7be;
   text-align: left;
   position: relative;
-  z-index: 10000001;
+  z-index: 1000000000000000000000000000000000000000001;
   overflow-y: auto;
 }
 
