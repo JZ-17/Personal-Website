@@ -36,11 +36,13 @@ html {
   height: 45px;
   width: auto;
   background-color: transparent;
+  z-index: 6;
 }
 
 .logo-icon:hover {
   transform: translateY(-3px);
   filter: drop-shadow(0px 3px 10px rgba(114, 161, 236, 0.9));
+  z-index: 6;
 }
 
 .navbar-links {
@@ -55,6 +57,7 @@ html {
   font-size: 0.9rem;
   text-decoration: none;
   transition: all 0.3s ease;
+  z-index: 6;
 }
 
 .navbar-link:hover {
@@ -68,6 +71,7 @@ html {
   display: flex;
   justify-content: flex-end;
   gap: 12px;
+  z-index: 6;
 }
 
 .icon-link {
