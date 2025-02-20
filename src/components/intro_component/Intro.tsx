@@ -12,11 +12,7 @@ const Intro = () => {
     <section className="hero-section" id="intro">
       <div className="hero-container">
         {/* Text Section */}
-        <motion.div
-          initial={{ opacity: 1, scale: 1.1 }}
-          animate={{ opacity: 1, scale: 1.1 }}
-          transition={{ duration: 0.5 }}
-          className="hero-text"
+        <motion.div initial={{ opacity: 0, scale: 1.1 }} animate={{ opacity: 1, scale: 1.1 }} transition={{ duration: 2.5 }} className="hero-text"
         >
           <h1 className="hero-title">
             Josh Zhang
@@ -74,9 +70,9 @@ const Intro = () => {
 
         {/* PNG Section */}
         <motion.div
-          initial={{ opacity: 1, scale: 1.5 }}
+          initial={{ opacity: 0, scale: 1.5 }}
           animate={{ opacity: 1, scale: 1.5 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 2.5 }}
           className="hero-astronaut"
         >
           <Image

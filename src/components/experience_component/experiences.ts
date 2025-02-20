@@ -22,7 +22,7 @@ export const experiences = [
       "Personal Business",
     description: [
       "Purchase apparel and shoes from brands and resell in secondary markets for profit",
-      "Acquired items and made over $10K in net profit with an average of 45 inventory days, representing a 65% return on capital invested",
+      "Acquired items and made over $30K in net profit with an average of 45 inventory days, representing a 65% return on capital invested",
       "Developed a network of buyers and sellers to facilitate transactions",
     ],
     link: null,

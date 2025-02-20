@@ -28,6 +28,8 @@
 
 .header-border {
   background: white;
+  width: 90%;
+  max-width: 900px;
   height: 2px;
   border: none;
   flex-grow: 1;
@@ -39,7 +41,6 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 80%;
 }
 
 /* Experience Card */

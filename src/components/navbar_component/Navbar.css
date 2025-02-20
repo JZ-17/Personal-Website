@@ -50,6 +50,7 @@ html {
   display: flex;
   justify-content: center;
   gap: 20px;
+  white-space: nowrap;
 }
 
 .navbar-link {

@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import "@/components/me_component/Me.css";
+import { motion } from "framer-motion";
 
 const tab_data = [
   {
@@ -61,35 +62,36 @@ const Me = () => {
 
   return (
     <section className="about-section" id="me">
-      {/* Section Header */}
-      <div className="section-header">
-        <h2 className="header-text">About Me</h2>
-        <hr className="header-border" />
-      </div>
 
-      <div className="about-container">
-        <Image src="/images/Profile.png" width={600} height={600} alt="Profile" />
-        <div className="about-content">
-          <p className="about-description">
-            Hi everyone! My name is Josh Zhang, and I am a junior at Harvard College studying Computer Science and Statistics. 
-            Currently, I am extremely interested in learning much more about software engineering, data engineering, and machine learning, but I am very eager to learn about other miscellaneous tech-related topics outside of my scope :)
-          </p>
-          <div className="tab-buttons">
-            {tab_data.map((tabData) => (
-              <button
-                key={tabData.id}
-                onClick={() => handleTabChange(tabData.id)}
-                className={`tab-button ${tab === tabData.id ? "active" : ""}`}
-              >
-                {tabData.title}
-              </button>
-            ))}
-          </div>
-          <div className={`tab-content ${isFading ? "fade-out" : "fade-in"}`}>
-            {tab_data.find((t) => t.id === tab).content}
-          </div>
-        </div>
-      </div>
+        {/* Section Header */}
+        <motion.div initial={{ opacity: 0, scale: 1 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 2.5 }} className="section-header">
+          <h2 className="header-text">About Me</h2>
+          <hr className="header-border" />
+        </motion.div>
+
+          <motion.div initial={{ opacity: 0, scale: 1 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 2.5 }} className="about-container">
+            <Image src="/images/Profile.png" width={600} height={600} alt="Profile" />
+            <div className="about-content">
+              <p className="about-description">
+                Hi everyone! My name is Josh Zhang, and I am a junior at Harvard College studying Computer Science and Statistics. 
+                Currently, I am extremely interested in learning much more about software engineering, data science, and machine learning, but I am very eager to learn about other miscellaneous tech-related topics outside of my scope :)
+              </p>
+              <div className="tab-buttons">
+                {tab_data.map((tabData) => (
+                  <button
+                    key={tabData.id}
+                    onClick={() => handleTabChange(tabData.id)}
+                    className={`tab-button ${tab === tabData.id ? "active" : ""}`}
+                  >
+                    {tabData.title}
+                  </button>
+                ))}
+              </div>
+              <div className={`tab-content ${isFading ? "fade-out" : "fade-in"}`}>
+                {tab_data.find((t) => t.id === tab).content}
+              </div>
+            </div>
+          </motion.div>
     </section>
   );
 };

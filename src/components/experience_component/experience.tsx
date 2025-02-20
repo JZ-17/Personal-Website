@@ -3,10 +3,11 @@ import React from "react";
 import "@/components/experience_component/Experience.css";
 import { experiences } from "@/components/experience_component/experiences";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export default function Experience() {
   return (
-    <div className="experience-section" id="experience">
+    <motion.div initial={{ opacity: 0, scale: 1 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 2.5 }} className="experience-section" id="experience">
 
       {/* Section Header */}
       <div className="section-header">
@@ -53,6 +54,6 @@ export default function Experience() {
           </button>
         </Link>
       </div>
-    </div>
+    </motion.div>
   );
 }

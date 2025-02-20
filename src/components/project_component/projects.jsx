@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import "@/components/project_component/Projects.css";
+import { motion } from "framer-motion";
 
 const Projects = ({ project }) => {
   const [showAll, setShowAll] = useState(false);
@@ -40,13 +41,13 @@ const Projects = ({ project }) => {
   return (
     <div className="projects-container" id="projects">
       {/* Section Header */}
-      <div className="section-header">
+      <motion.div initial={{ opacity: 0, scale: 1 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 2.5 }} className="section-header">
         <h2 className="header-text">Projects</h2>
         <hr className="header-border" />
-      </div>
+      </motion.div>
 
       {/* Projects Grid */}
-      <div className="projects-grid">
+      <motion.div initial={{ opacity: 0, scale: 1 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 2.5 }} className="projects-grid">
         {visibleProjects.map((proj, id) => (
           <div
             className={`project-card ${fadeOut ? "fade-out" : "fade-in"}`}
@@ -66,14 +67,14 @@ const Projects = ({ project }) => {
             </div>
           </div>
         ))}
-      </div>
+      </motion.div>
 
       {/* Toggle Button */}
-      <div className="toggle-button">
+      <motion.div initial={{ opacity: 0, scale: 1 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 2.5 }} className="toggle-button">
         <button onClick={toggleShowAll}>
           {showAll ? "View Less" : "View More"}
         </button>
-      </div>
+      </motion.div>
 
       {/* Modal */}
       {selectedProject && (

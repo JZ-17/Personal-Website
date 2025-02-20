@@ -21,6 +21,21 @@
   text-align: center;
 }
 
+.header-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  white-space: nowrap;
+}
+
+.header-border {
+  width: 90%;
+  max-width: 900px;
+  height: 3px;
+  background: white;
+  margin: 10px auto 0;
+}
+
 /* Projects Grid */
 .projects-grid {
   display: grid;
@@ -228,7 +243,7 @@ body.modal-open {
   color: white;
   border: none;
   border-radius: 5px;
-  padding: 10px 15px;
+  padding: 15px 20px;
   cursor: pointer;
   position: absolute;
   top: 10px;
@@ -271,7 +286,7 @@ body.modal-open {
   .modal-content {
     width: 90%;
     max-width: 90vw;
-    padding: 15px;
+    padding: 20px;
     max-height: 75vh;
   }
 }
@@ -282,7 +297,7 @@ body.modal-open {
   color: white;
   border: none;
   border-radius: 5px;
-  padding: 10px 15px;
+  padding: 15px 20px;
   cursor: pointer;
   position: absolute;
   top: 10px;
