@@ -1,10 +1,10 @@
 export const project = [
     {
       title: "Monch",
-      company: "HackUTD",
+      company: "HackUTD 2025",
       award: "1st Place in Pinata Platinum Sponsor Category",
       accomplishment:
-        "Developed and deployed an AI-powered app that uses photos of your food to recognize ingredients, determine portion sizes, and calculate macro breakdowns",
+        "Deployed an AI-powered app that uses photos of your food to recognize ingredients, determine portion sizes, and calculate macro breakdowns",
       actions: [
         "Designed and deployed a TensorFlow-based neural network leveraging the Food101 dataset to classify food items and identify ingredients, integrating USDA data to accurately predict macro-nutrient distribution",
         "Developed a front-end user interface enabling users to scan or upload meal photos and analyze progress through goal-oriented graphs.",
@@ -18,7 +18,7 @@ export const project = [
       title: "Caption Capturer",
       company: "Personal Project",
       accomplishment:
-        "Developed and deployed a multi-language Chrome extension leveraging the Web Speech API and virtual audio mixers to provide real-time, accurate speech-to-text captions, complete with a dynamic overlay and timeout-based removal for seamless user experience",
+        "Published a multi-language Chrome extension leveraging the Web Speech API and virtual audio mixers to provide real-time, accurate speech-to-text captions, complete with a dynamic overlay and timeout-based removal for seamless user experience",
       actions: [
         "Utilized the Chrome Extension APIs to implement dynamic content script injection, manage inter-component communication, and ensure compatibility with user-selected tabs and websites",
         "Implemented multi-language selection functionality to provide seamless support for various languages",
@@ -31,8 +31,23 @@ export const project = [
       paper: null,
     },
     {
+      title: "Arbitraider",
+      company: "Hacklytics 2025",
+      award: null,
+      accomplishment:
+        "Released an automated arbitrage detection system and interface that scrapes real-time betting data and applies sentiment analysis for market similarity to ensure confidence in profitable arbitrage trades",
+      actions: [
+        "Utilized AWS SageMaker and S3 to deploy an algorithm that scraped real-time betting market data from Kalshi and Gamma APIs and used the OpenAI API to quantify market similarity and ensure successful arbitrage transactions",
+        "Designed an intuitive interface to visualize market trends in real-time and implemented live query inference using the Grok API for dynamic insights",
+      ],
+      skills: ["Python", "Pandas", "Kalshi API", "Polymarket Gamma API", "OpenAI API", "Grok API", "Javascript", "Next JS","Tailwind CSS", "React", "ShadCN", "NodeJS", "Amazon S3 Storage", "Amazon SageMaker",],
+      link: null,
+      github: "https://github.com/JZ-17/Climate-Agriculture-Food-Data-Project",
+      paper: null,
+    },
+    {
       title: "Climate Agriculture Food Project",
-      company: "Harvard Data Science Initiative Hackathon",
+      company: "Harvard Data Science Initiative Hackathon 2024",
       award: null,
       accomplishment:
         "Analyzed USDA/NASS data to identify statistically significant trends between average farmer age and agricultural productivity from 1997 to 2022",
@@ -95,20 +110,6 @@ export const project = [
       paper: "/papers/Stat_139_Final_Project.pdf",
     },
     {
-      title: "Ramen Rampage",
-      company: "Personal Project",
-      award: null,
-      accomplishment: "Created a incremental-style game utilizing Swift and Xcode and custom-made graphics",
-      actions: [
-        "Utilized Swift and Xcode to develop an incremental-style game where players click to make ramen and upgrade their ramen shop in hopes of becoming the fastest Ramen producer in the world :)",
-        "Created custom pixel art and animations for the game",
-      ],
-      skills: ["Swift", "Xcode"],
-      link: null,
-      github: "https://github.com/JZ-17/Ramen-Rampage",
-      paper: null,
-    },
-    {
       title: "This Website :)",
       company: "Personal Project",
       award: null,
@@ -121,6 +122,20 @@ export const project = [
       skills: ["Next JS", "React", "Typescript", "Javascript", "Tailwind CSS", "Framer Motion"],
       link: "https://joshzhang.tech",
       github: "https://github.com/JZ-17/CS109A_Final_Project",
+      paper: null,
+    },
+    {
+      title: "Ramen Rampage",
+      company: "Personal Project",
+      award: null,
+      accomplishment: "Created a incremental-style game utilizing Swift and Xcode and custom-made graphics",
+      actions: [
+        "Utilized Swift and Xcode to develop an incremental-style game where players click to make ramen and upgrade their ramen shop in hopes of becoming the fastest Ramen producer in the world :)",
+        "Created custom pixel art and animations for the game",
+      ],
+      skills: ["Swift", "Xcode"],
+      link: null,
+      github: "https://github.com/JZ-17/Ramen-Rampage",
       paper: null,
     },
     {
