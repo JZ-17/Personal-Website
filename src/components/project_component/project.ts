@@ -35,7 +35,7 @@ export const project = [
       company: "Hacklytics 2025",
       award: null,
       accomplishment:
-        "Released an automated arbitrage detection system and interface that scrapes real-time betting data and applies sentiment analysis for market similarity to ensure confidence in profitable arbitrage trades",
+        "Released an automated arbitrage detection system and interface that scrapes real-time betting data, applies sentiment analysis for market similarity, and ensures confidence in profitable arbitrage trades",
       actions: [
         "Utilized AWS SageMaker and S3 to deploy an algorithm that scraped real-time betting market data from Kalshi and Gamma APIs and used the OpenAI API to quantify market similarity and ensure successful arbitrage transactions",
         "Designed an intuitive interface to visualize market trends in real-time and implemented live query inference using the Grok API for dynamic insights",
