@@ -41,8 +41,8 @@ export const project = [
         "Designed an intuitive interface to visualize market trends in real-time and implemented live query inference using the Grok API for dynamic insights",
       ],
       skills: ["Python", "Pandas", "Kalshi API", "Polymarket Gamma API", "OpenAI API", "Grok API", "Javascript", "Next JS","Tailwind CSS", "React", "ShadCN", "NodeJS", "Amazon S3 Storage", "Amazon SageMaker",],
-      link: null,
-      github: "https://github.com/JZ-17/Climate-Agriculture-Food-Data-Project",
+      link: "http://arbitraider.tech/",
+      github: "https://github.com/PerdoGarcia/hacklytics",
       paper: null,
     },
     {
