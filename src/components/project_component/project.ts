@@ -7,11 +7,26 @@ export const project = [
         "Deployed an AI-powered app that uses photos of your food to recognize ingredients, determine portion sizes, and calculate macro breakdowns",
       actions: [
         "Designed and deployed a TensorFlow-based neural network leveraging the Food101 dataset to classify food items and identify ingredients, integrating USDA data to accurately predict macro-nutrient distribution",
-        "Developed a front-end user interface enabling users to scan or upload meal photos and analyze progress through goal-oriented graphs.",
+        "Developed a front-end user interface enabling users to scan or upload meal photos and analyze progress through goal-oriented graphs",
       ],
       skills: [ "React","Typescript","Next JS","Tailwind CSS","ShadCN","Node JS","Pinata Cloud","TensorFlow",],
       link: "https://monch.tech",
       github: "https://github.com/jacksonmoody/monch?tab=readme-ov-file",
+      paper: null,
+    },
+    {
+      title: "Mass. Food Network",
+      company: "Hacking Injustice 2025",
+      award: "Grand 1st Place Prize Winner",
+      accomplishment:
+        "Developed an app that allows users to upload grocery lists, parses through vender input, and optimizes affordability through balanced cost-distance, per-item pricing, and proximity-focused matching",
+      actions: [
+        "Engineered an algorithm leveraging OpenAI Vision API, Regex, OpenAI API, and Google Maps API to parse uploaded grocery list images and connect users with local vendors, optimizing affordability through balanced cost-distance, per-item pricing, and proximity-focused matching",
+        "Constructed a Supabase database and developed an ergonomic front-end interface for local vendors to upload their business information and enable users to submit grocery lists that dynamically retrieve relevant items",
+      ],
+      skills: ["OpenAI Vision API","Regex", "OpenAI API","Google Maps API", "Supabase","React","Javascript","Next JS","Tailwind CSS","ShadCN","Node JS","Supabase",],
+      link: null,
+      github: "https://github.com/chrisli1241/hacking-injustice",
       paper: null,
     },
     {
