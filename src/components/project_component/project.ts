@@ -45,6 +45,24 @@ export const project = [
       paper: null,
     },
     {
+      title: "Short Ball and Long Ball Playing Styles’ Influence in Professional Soccer Matches",
+      company: "Personal Project",
+      award: null,
+      accomplishment:
+        " Created mixed-effects regression models to predict Expected Goals (xG) (Adj. R-Squared: 0.462), featuring interpretations of found results results",
+      actions: [
+        "Used Fbref's 2022-23 and 2023-24 EPL Passing Data to create mixed-effects regression models to account for team-specific factors impacting Expected Goals (xG)",
+        "Created Elo models and k-Means Clustering to quantify team and opponent skill and team playing styles",
+        "Implemented Ridge and Lasso regressions to optimize variable selection and improve model accuracy",
+        "Developed Random Forest models to to attempt to capture non-linear relationships",
+        "Utilized logistic regressions and mixed-effects models to find that Expected Goals (xG) is derived from a blend of tactical preferences with adaptive progression,  particularly through efficient medium-pass execution"
+      ],
+      skills: ["R", "ggplot2", "dplyr", "tidyverse","elo", "Mass", "lme4", "tidyr", "glmnet", "randomForest", "performance"],
+      link: null,
+      github: "https://github.com/JZ-17/Decoding-Bank-Profitability-and-Stability",
+      paper: "/papers/Stat106.pdf",
+    },
+    {
     title: "The Odyssey of Dreams",
     company: "Personal Project",
     accomplishment: "Developed a dynamic self-help book with AI-powered prompts, personalized responses, and session tracking",
@@ -59,22 +77,6 @@ export const project = [
     link: null,
     github: "https://github.com/JZ-17/The-Odyssey-of-Dreams",
     paper: "/papers/Odyssey_of_Dreams.pdf"
-    },
-    {
-      title: "Caption Capturer",
-      company: "Personal Project",
-      accomplishment:
-        "Published a multi-language Chrome extension leveraging the Web Speech API and virtual audio mixers to provide real-time, accurate speech-to-text captions, complete with a dynamic overlay and timeout-based removal for seamless user experience",
-      actions: [
-        "Utilized the Chrome Extension APIs to implement dynamic content script injection, manage inter-component communication, and ensure compatibility with user-selected tabs and websites",
-        "Implemented multi-language selection functionality to provide seamless support for various languages",
-        "Designed a timeout-based algorithm to dynamically manage and remove caption overlays after periods of inactivity, ensuring a clean and non-intrusive user experience",
-        "Created an ergonomic front-end interface enabling users to toggle captions on or off, select their preferred language, and receive notifications if the website's security measures restrict extension functionality",
-      ],
-      skills: ["Javascript", "WebKitSpeechRecognition API", "Chrome Extensions API", "HTML", "CSS", "Audio Manipulation"],
-      link: "https://chromewebstore.google.com/detail/caption-capturer/fmnjkgbnemdihoibnkojnbfbbmbacfkf?authuser=1&hl=en",
-      github: "https://github.com/JZ-17/Caption-Capturer",
-      paper: null,
     },
     {
       title: "Datamatch",
@@ -93,6 +95,23 @@ export const project = [
       github: null,
       paper: null,
     },
+    {
+      title: "Caption Capturer",
+      company: "Personal Project",
+      accomplishment:
+        "Published a multi-language Chrome extension leveraging the Web Speech API and virtual audio mixers to provide real-time, accurate speech-to-text captions, complete with a dynamic overlay and timeout-based removal for seamless user experience",
+      actions: [
+        "Utilized the Chrome Extension APIs to implement dynamic content script injection, manage inter-component communication, and ensure compatibility with user-selected tabs and websites",
+        "Implemented multi-language selection functionality to provide seamless support for various languages",
+        "Designed a timeout-based algorithm to dynamically manage and remove caption overlays after periods of inactivity, ensuring a clean and non-intrusive user experience",
+        "Created an ergonomic front-end interface enabling users to toggle captions on or off, select their preferred language, and receive notifications if the website's security measures restrict extension functionality",
+      ],
+      skills: ["Javascript", "WebKitSpeechRecognition API", "Chrome Extensions API", "HTML", "CSS", "Audio Manipulation"],
+      link: "https://chromewebstore.google.com/detail/caption-capturer/fmnjkgbnemdihoibnkojnbfbbmbacfkf?authuser=1&hl=en",
+      github: "https://github.com/JZ-17/Caption-Capturer",
+      paper: null,
+    },
+    
     {
       title: "Cambridge GHG Predictions",
       company: "Personal Project",
