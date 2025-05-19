@@ -70,7 +70,7 @@ export const project = [
         "Used Fbref's 2022-23 and 2023-24 EPL Passing Data to create mixed-effects regression models to account for team-specific factors impacting Expected Goals (xG)",
         "Created Elo models and k-Means Clustering to quantify team and opponent skill and team playing styles",
         "Implemented Ridge and Lasso regressions to optimize variable selection and improve model accuracy",
-        "Developed Random Forest models to to attempt to capture non-linear relationships",
+        "Developed Random Forest models to attempt to capture non-linear relationships",
         "Utilized logistic regressions and mixed-effects models to find that Expected Goals (xG) is derived from a blend of tactical preferences with adaptive progression,  particularly through efficient medium-pass execution"
       ],
       skills: ["R", "ggplot2", "dplyr", "tidyverse","elo", "Mass", "lme4", "tidyr", "glmnet", "randomForest", "performance"],
