@@ -45,11 +45,27 @@ export const project = [
       paper: null,
     },
     {
-      title: "Short Ball and Long Ball Playing Styles’ Influence in Professional Soccer Matches",
+      title: "Pop Music Generation",
       company: "Personal Project",
       award: null,
       accomplishment:
-        " Created mixed-effects regression models to predict Expected Goals (xG) (Adj. R-Squared: 0.462), featuring interpretations of found results results",
+        "Developed a rNN algorithm that generates pop music with an Validation Accuracy of 0.8171",
+      actions: [
+        "Utilized Clean Midi and Genre datasets to develop a rNN algorithm that generates pop music with an Validation Accuracy of 0.8171",
+        "Used double directional GRU layers, a single head attention mechanism, global average pooling, and dense layers with early stopping and learning rate reduction to create said final model",
+        "Made a baseline model with embedding layers, GRU, and dense layers, achieving a validation accuracy of 0.7138",
+      ],
+      skills: ["Python","Scikit-Learn","Seaborn", "Matplotlib", "Pandas", "NumPy", "TensorFlow", "Keras", "MidiTok", "Music21", "PrettyMIDI"],
+      link: null,
+      github: "https://github.com/JZ-17/Pop-Music-Generation",
+      paper: "/papers/CS109b.pdf",
+    },
+    {
+      title: "Short Ball and Long Ball Playing Styles' Influence in Professional Soccer Matches",
+      company: "Personal Project",
+      award: null,
+      accomplishment:
+        "Created mixed-effects regression models to predict Expected Goals (xG) (Adj. R-Squared: 0.462), featuring interpretations of found results",
       actions: [
         "Used Fbref's 2022-23 and 2023-24 EPL Passing Data to create mixed-effects regression models to account for team-specific factors impacting Expected Goals (xG)",
         "Created Elo models and k-Means Clustering to quantify team and opponent skill and team playing styles",
