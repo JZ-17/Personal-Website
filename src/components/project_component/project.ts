@@ -24,7 +24,7 @@ export const project = [
         "Engineered an algorithm leveraging OpenAI Vision API, Regex, OpenAI API, and Google Maps API to parse uploaded grocery list images and connect users with local vendors, optimizing affordability through balanced cost-distance, per-item pricing, and proximity-focused matching",
         "Constructed a Supabase database and developed an ergonomic front-end interface for local vendors to upload their business information and enable users to submit grocery lists that dynamically retrieve relevant items",
       ],
-      skills: ["Python","OpenAI Vision API", "Regex", "OpenAI API","Google Maps API", "Supabase","React","Javascript","Next JS","Tailwind CSS","ShadCN","Node JS","Supabase",],
+      skills: ["Python","OpenAI Vision API", "Regex", "OpenAI API", "Google Maps API", "Google Sign-In API","Supabase","React","Javascript","Next JS","Tailwind CSS","ShadCN","Node JS","Supabase",],
       link: null,
       github: "https://github.com/chrisli1241/hacking-injustice",
       paper: null,
