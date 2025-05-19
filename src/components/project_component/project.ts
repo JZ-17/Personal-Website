@@ -30,22 +30,6 @@ export const project = [
       paper: null,
     },
     {
-      title: "Caption Capturer",
-      company: "Personal Project",
-      accomplishment:
-        "Published a multi-language Chrome extension leveraging the Web Speech API and virtual audio mixers to provide real-time, accurate speech-to-text captions, complete with a dynamic overlay and timeout-based removal for seamless user experience",
-      actions: [
-        "Utilized the Chrome Extension APIs to implement dynamic content script injection, manage inter-component communication, and ensure compatibility with user-selected tabs and websites",
-        "Implemented multi-language selection functionality to provide seamless support for various languages",
-        "Designed a timeout-based algorithm to dynamically manage and remove caption overlays after periods of inactivity, ensuring a clean and non-intrusive user experience",
-        "Created an ergonomic front-end interface enabling users to toggle captions on or off, select their preferred language, and receive notifications if the website's security measures restrict extension functionality",
-      ],
-      skills: ["Javascript", "WebKitSpeechRecognition API", "Chrome Extensions API", "HTML", "CSS", "Audio Manipulation"],
-      link: "https://chromewebstore.google.com/detail/caption-capturer/fmnjkgbnemdihoibnkojnbfbbmbacfkf?authuser=1&hl=en",
-      github: "https://github.com/JZ-17/Caption-Capturer",
-      paper: null,
-    },
-    {
       title: "Arbitraider",
       company: "Hacklytics 2025",
       award: null,
@@ -61,19 +45,36 @@ export const project = [
       paper: null,
     },
     {
-      title: "Climate Agriculture Food Project",
-      company: "Harvard Data Science Initiative Hackathon 2024",
-      award: null,
+    title: "The Odyssey of Dreams",
+    company: "Personal Project",
+    accomplishment: "Developed a dynamic self-help book with AI-powered prompts, personalized responses, and session tracking",
+    actions: [
+      "Built a React-based frontend with TypeScript using Next.js framework, implementing custom hooks for state management and a toast notification system for enhanced user experience",
+      "Established OpenAI API to generate personalized prompts and responses, enhancing user engagement and interaction",
+      "Integrated Google Sign-In API and NextAuth.js for secure user authentication and session management, enabling personalized reading sessions and progress tracking",
+      "Designed and implemented a Supabase PostgreSQL database schema for storing book sessions, user responses, and AI-generated content",
+      "Developed a responsive UI with Tailwind CSS featuring dynamic content rendering, loading states, and accessible notification systems"
+    ],
+    skills: ["OpenAI API", "Google Sign-In API", "React", "TypeScript", "Next.js", "Supabase", "PostgreSQL", "NextAuth.js", "Tailwind CSS"],
+    link: null,
+    github: "https://github.com/JZ-17/The-Odyssey-of-Dreams",
+    paper: "/papers/Odyssey_of_Dreams.pdf"
+    },
+    {
+      title: "Caption Capturer",
+      company: "Personal Project",
       accomplishment:
-        "Analyzed USDA/NASS data to identify statistically significant trends between average farmer age and agricultural productivity from 1997 to 2022",
+        "Published a multi-language Chrome extension leveraging the Web Speech API and virtual audio mixers to provide real-time, accurate speech-to-text captions, complete with a dynamic overlay and timeout-based removal for seamless user experience",
       actions: [
-        "Explored and analyzed USDA/NASS data from the 2022 Agricultural Census, examining the correlation between average farmer age and agricultural productivity, measured by inflation-adjusted 2022 dollar values and raw sales",
-        "Applied linear regressions in Python and visualized findings with choropleth maps, identifying a statistically significant negative trend between aging farmers and productivity across U.S. counties, with the strongest effects in southern regions (p-value < 0.01)",
+        "Utilized the Chrome Extension APIs to implement dynamic content script injection, manage inter-component communication, and ensure compatibility with user-selected tabs and websites",
+        "Implemented multi-language selection functionality to provide seamless support for various languages",
+        "Designed a timeout-based algorithm to dynamically manage and remove caption overlays after periods of inactivity, ensuring a clean and non-intrusive user experience",
+        "Created an ergonomic front-end interface enabling users to toggle captions on or off, select their preferred language, and receive notifications if the website's security measures restrict extension functionality",
       ],
-      skills: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Statsmodels"],
-      link: null,
-      github: "https://github.com/JZ-17/Climate-Agriculture-Food-Data-Project",
-      paper: "/papers/HDSI_Datathon.pdf",
+      skills: ["Javascript", "WebKitSpeechRecognition API", "Chrome Extensions API", "HTML", "CSS", "Audio Manipulation"],
+      link: "https://chromewebstore.google.com/detail/caption-capturer/fmnjkgbnemdihoibnkojnbfbbmbacfkf?authuser=1&hl=en",
+      github: "https://github.com/JZ-17/Caption-Capturer",
+      paper: null,
     },
     {
       title: "Datamatch",
@@ -138,6 +139,21 @@ export const project = [
       link: "https://joshzhang.tech",
       github: "https://github.com/JZ-17/CS109A_Final_Project",
       paper: null,
+    },
+    {
+      title: "Climate Agriculture Food Project",
+      company: "Harvard Data Science Initiative Hackathon 2024",
+      award: null,
+      accomplishment:
+        "Analyzed USDA/NASS data to identify statistically significant trends between average farmer age and agricultural productivity from 1997 to 2022",
+      actions: [
+        "Explored and analyzed USDA/NASS data from the 2022 Agricultural Census, examining the correlation between average farmer age and agricultural productivity, measured by inflation-adjusted 2022 dollar values and raw sales",
+        "Applied linear regressions in Python and visualized findings with choropleth maps, identifying a statistically significant negative trend between aging farmers and productivity across U.S. counties, with the strongest effects in southern regions (p-value < 0.01)",
+      ],
+      skills: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Statsmodels"],
+      link: null,
+      github: "https://github.com/JZ-17/Climate-Agriculture-Food-Data-Project",
+      paper: "/papers/HDSI_Datathon.pdf",
     },
     {
       title: "Ramen Rampage",
