@@ -26,11 +26,12 @@
 
 .header-border {
   width: 90%;
-  max-width: 900px;
+  max-width: clamp(900px, 70vw, 1200px);
   height: 3px;
   background: white;
   margin: 10px auto 0;
 }
+
 
 /* About Container */
 .about-container {
@@ -132,13 +133,6 @@
   border-radius: 10px;
   max-width: 300px;
   height: auto;
-}
-
-/* Border for 1440 */
-@media (min-width: 1440px) {
-  .header-border {
-    max-width: 1100px;
-  }
 }
 
 /* Responsive Adjustments */
