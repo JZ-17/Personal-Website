@@ -134,6 +134,13 @@
   height: auto;
 }
 
+/* Border for 1440 */
+@media (min-width: 1440px) {
+  .header-border {
+    max-width: 1100px;
+  }
+}
+
 /* Responsive Adjustments */
 @media (max-width: 900px) {
   .about-container {
