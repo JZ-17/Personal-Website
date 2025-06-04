@@ -49,9 +49,9 @@ export const project = [
       company: "Personal Project",
       award: null,
       accomplishment:
-        "Developed a rNN algorithm that generates pop music with an Validation Accuracy of 0.8171",
+        "Developed a RNN model that generates pop music with an Validation Accuracy of 0.8171",
       actions: [
-        "Utilized Clean Midi and Genre datasets to develop a rNN algorithm that generates pop music with an Validation Accuracy of 0.8171",
+        "Utilized Clean Midi and Genre datasets to develop a RNN model that generates pop music with an Validation Accuracy of 0.8171",
         "Used double directional GRU layers, a single head attention mechanism, global average pooling, and dense layers with early stopping and learning rate reduction to create said final model",
         "Made a baseline model with embedding layers, GRU, and dense layers, achieving a validation accuracy of 0.7138",
       ],
