@@ -26,7 +26,7 @@
 
 .header-border {
   width: 90%;
-  max-width: clamp(900px, 70vw, 1200px);
+  max-width: clamp(900px, 75%, 1300px);
   height: 3px;
   background: white;
   margin: 10px auto 0;
