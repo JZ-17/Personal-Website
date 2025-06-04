@@ -26,12 +26,11 @@
 
 .header-border {
   width: 90%;
-  max-width: clamp(900px, 75%, 1300px);
+  max-width: 900px;
   height: 3px;
   background: white;
   margin: 10px auto 0;
 }
-
 
 /* About Container */
 .about-container {
