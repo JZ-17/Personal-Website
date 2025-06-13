@@ -11,7 +11,7 @@ const tab_data = [
     content: (
       <ul className="list-disc tab-list">
         <li>Programming Languages: Python, R, JavaScript, C++, Swift, SQL</li>
-        <li>Machine Learning Frameworks: Scikit-Learn, TensorFlow, Keras PyTorch</li>
+        <li>Machine Learning Frameworks: Scikit-Learn, TensorFlow, Keras, PyTorch</li>
         <li>Front-End Development: React, Redux, Firebase, Tailwind, CSS</li>
         <li>Data Analysis: Pandas, Matplotlib, Seaborn, StatsModels</li>
         <li>Other Tools: Hugging Face, AWS Cloud Services, Supabase, OpenAI API, Blender, Fusion360, Photoshop, Premiere Pro</li>
