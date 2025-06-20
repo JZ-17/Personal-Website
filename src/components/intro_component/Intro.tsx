@@ -56,7 +56,7 @@ const Intro = () => {
               className="link"
             >
               Statistics
-            </a>. I am actively seeking a 2025 summer internship. Feel free to
+            </a>. I am actively seeking a 2025 fall internship. Feel free to
             reach out!
           </p>
 
