@@ -33,7 +33,7 @@ const Intro = () => {
             />
           </h1>
           <p className="hero-description">
-            Hi! My name is Josh Zhang, and I am a junior at{" "}
+            Hi! My name is Josh Zhang, and I am a student at{" "}
             <a
               href="https://www.college.harvard.edu/"
               target="_blank"

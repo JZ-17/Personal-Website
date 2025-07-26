@@ -1,17 +1,19 @@
 export const project = [
     {
-      title: "Monch",
-      company: "HackUTD 2025",
-      award: "1st Place in Pinata Platinum Sponsor Category",
+      title: "Decoding Winning Patterns in Professional Basketball via Attention-Based Sequence Models",
+      company: "NESSIS 2025",
+      award: "Accepted into the 2025 New England Symposium on Statistics in Sports (NESSIS)",
       accomplishment:
-        "Deployed an AI-powered app that uses photos of your food to recognize ingredients, determine portion sizes, and calculate macro breakdowns",
+        "Developed transformer-based neural network models using player-level NBA data (2016–2025) to predict regular season and playoff win totals, achieving Validation MAEs of 6.49 and 2.12, respectively",
       actions: [
-        "Designed and deployed a TensorFlow-based neural network leveraging the Food101 dataset to classify food items and identify ingredients, integrating USDA data to accurately predict macro-nutrient distribution",
-        "Developed a front-end user interface enabling users to scan or upload meal photos and analyze progress through goal-oriented graphs",
+        "Concatenated public player-level data from the NBA API and Basketball Reference over the past 10 seasons",
+        "Utilized positional encoding, multi-head attention mechanisms, global average pooling, dense layers, batch normalization, and dropout to create a transformer-based neural network model that predicts regular season and playoff win totals with Validation MAEs of 6.49 and 2.12, respectively",
+        "Creating a potential transformer-based model that can predict rookie statistical performance for the upcoming 2025-26 NBA season",
+        "Presently working on a presentation for the 2025 New England Symposium on Statistics in Sports (NESSIS) to showcase the findings and methodology"
       ],
-      skills: ["Python","TensorFlow", "React","Typescript","Next JS","Tailwind CSS","ShadCN","Node JS","Pinata Cloud",],
-      link: "https://monch.tech",
-      github: "https://github.com/jacksonmoody/monch?tab=readme-ov-file",
+      skills: ["Python","OpenAI Vision API", "Regex", "OpenAI API", "Google Maps API", "Google Sign-In API","Supabase","React","Javascript","Next JS","Tailwind CSS","ShadCN","Node JS","Supabase",],
+      link: null,
+      github: "https://github.com/chrisli1241/hacking-injustice",
       paper: null,
     },
     {
@@ -27,6 +29,21 @@ export const project = [
       skills: ["Python","OpenAI Vision API", "Regex", "OpenAI API", "Google Maps API", "Google Sign-In API","Supabase","React","Javascript","Next JS","Tailwind CSS","ShadCN","Node JS","Supabase",],
       link: null,
       github: "https://github.com/chrisli1241/hacking-injustice",
+      paper: null,
+    },
+    {
+      title: "Monch",
+      company: "HackUTD 2025",
+      award: "1st Place in Pinata Platinum Sponsor Category",
+      accomplishment:
+        "Deployed an AI-powered app that uses photos of your food to recognize ingredients, determine portion sizes, and calculate macro breakdowns",
+      actions: [
+        "Designed and deployed a TensorFlow-based neural network leveraging the Food101 dataset to classify food items and identify ingredients, integrating USDA data to accurately predict macro-nutrient distribution",
+        "Developed a front-end user interface enabling users to scan or upload meal photos and analyze progress through goal-oriented graphs",
+      ],
+      skills: ["Python","TensorFlow", "React","Typescript","Next JS","Tailwind CSS","ShadCN","Node JS","Pinata Cloud",],
+      link: "https://monch.tech",
+      github: "https://github.com/jacksonmoody/monch?tab=readme-ov-file",
       paper: null,
     },
     {

@@ -23,9 +23,9 @@ const tab_data = [
     id: "education",
     content: (
       <ul className="list-disc tab-list">
-        <li>Harvard College Computer Science Honors Bachelors of Arts (Expected 2026)</li>
-        <li>Harvard College Statistics Bachelors of Arts (Expected 2026)</li>
-        <li>Harvard College Education Studies Secondary (Expected 2026)</li>
+        <li>Harvard College Computer Science Honors Bachelors of Arts (Expected May 2027)</li>
+        <li>Harvard College Statistics Bachelors of Arts (Expected May 2027)</li>
+        <li>Harvard College Education Studies Secondary (Expected May 2027)</li>
         <li>Harvard College Chinese Language Citation</li>
         <li>Albemarle High School</li>
       </ul>
