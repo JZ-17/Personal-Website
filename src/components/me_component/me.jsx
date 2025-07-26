@@ -73,7 +73,7 @@ const Me = () => {
             <Image src="/images/Profile.png" width={600} height={600} alt="Profile" />
             <div className="about-content">
               <p className="about-description">
-                Hi everyone! My name is Josh Zhang, and I am a junior at Harvard College studying Computer Science and Statistics. 
+                Hi everyone! My name is Josh Zhang, and I am a rising senior at Harvard College studying Computer Science and Statistics. 
                 Currently, I am extremely interested in learning much more about software engineering, data science, and machine learning, but I am very eager to learn about other miscellaneous tech-related topics outside of my scope :)
               </p>
               <div className="tab-buttons">
