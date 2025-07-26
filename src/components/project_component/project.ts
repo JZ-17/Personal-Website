@@ -4,7 +4,7 @@ export const project = [
       company: "NESSIS 2025",
       award: "Accepted into the 2025 New England Symposium on Statistics in Sports (NESSIS)",
       accomplishment:
-        "Developed transformer-based neural network models using player-level NBA data (2016–2025) to predict regular season and playoff win totals, achieving Validation MAEs of 6.49 and 2.12, respectively",
+        "Developed transformer-based neural network models using player-level NBA data (2016-2025) to predict regular season and playoff win totals (Validation MAEs of 6.49 and 2.12), achieving performance competitive with modern forecasting models and providing a practical tool for evaluating roster impact and front office decisions",
       actions: [
         "Concatenated public player-level data from the NBA API and Basketball Reference over the past 10 seasons",
         "Utilized positional encoding, multi-head attention mechanisms, global average pooling, dense layers, batch normalization, and dropout to create a transformer-based neural network model that predicts regular season and playoff win totals with Validation MAEs of 6.49 and 2.12, respectively",
@@ -13,7 +13,7 @@ export const project = [
       ],
       skills: ["Python","OpenAI Vision API", "Regex", "OpenAI API", "Google Maps API", "Google Sign-In API","Supabase","React","Javascript","Next JS","Tailwind CSS","ShadCN","Node JS","Supabase",],
       link: null,
-      github: "https://github.com/chrisli1241/hacking-injustice",
+      github: "https://github.com/JZ-17/NESSIS",
       paper: null,
     },
     {
