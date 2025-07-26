@@ -33,7 +33,7 @@ export const project = [
     },
     {
       title: "Monch",
-      company: "HackUTD 2025",
+      company: "HackUTD 2024",
       award: "1st Place in Pinata Platinum Sponsor Category",
       accomplishment:
         "Deployed an AI-powered app that uses photos of your food to recognize ingredients, determine portion sizes, and calculate macro breakdowns",
