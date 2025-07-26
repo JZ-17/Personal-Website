@@ -4,14 +4,14 @@ export const project = [
       company: "NESSIS 2025",
       award: "Accepted into the 2025 New England Symposium on Statistics in Sports (NESSIS)",
       accomplishment:
-        "Developed transformer-based neural network models using player-level NBA data (2016-2025) to predict regular season and playoff win totals (Validation MAEs of 6.49 and 2.12), achieving performance competitive with modern forecasting models and providing a practical tool for evaluating roster impact and front office decisions",
+        "Developed transformer-based neural network models using player-level NBA data (2016-2025) to predict regular season and playoff win totals with Validation MAEs of 6.49 and 2.12, respectively",
       actions: [
         "Concatenated public player-level data from the NBA API and Basketball Reference over the past 10 seasons",
-        "Utilized positional encoding, multi-head attention mechanisms, global average pooling, dense layers, batch normalization, and dropout to create a transformer-based neural network model that predicts regular season and playoff win totals with Validation MAEs of 6.49 and 2.12, respectively",
+        "Utilized positional encoding, multi-head attention mechanisms, global average pooling, dense layers, batch normalization, and dropout to create a transformer-based neural network model that predicts regular season and playoff win totals (Validation MAEs of 6.49 and 2.12), achieving performance competitive with modern forecasting models and providing a practical tool for evaluating roster impact and front office decisions",
         "Creating a potential transformer-based model that can predict rookie statistical performance for the upcoming 2025-26 NBA season",
         "Presently working on a presentation for the 2025 New England Symposium on Statistics in Sports (NESSIS) to showcase the findings and methodology"
       ],
-      skills: ["Python","OpenAI Vision API", "Regex", "OpenAI API", "Google Maps API", "Google Sign-In API","Supabase","React","Javascript","Next JS","Tailwind CSS","ShadCN","Node JS","Supabase",],
+      skills: ["Python", "NBA API", "Tensorflow", "Keras","Scikit-Learn",],
       link: null,
       github: "https://github.com/JZ-17/NESSIS",
       paper: null,
@@ -150,7 +150,7 @@ export const project = [
       company: "Personal Project",
       award: null,
       accomplishment:
-        "Developed a random forest algorithm that predicts GHG emissions of buildings in Cambridge, MA with an OOB R-Squared of 0.70 and RMSE of 0.373",
+        "Devised a random forest algorithm that predicts GHG emissions of buildings in Cambridge, MA with an OOB R-Squared of 0.70 and RMSE of 0.373",
       actions: [
         "Utilized the 2022 Cambridge BEUDO dataset to develop a random forest algorithm that predicts GHG emissions of buildings in Cambridge, MA with an OOB R-Squared value of 0.70, RMSE of 0.373, and Train R-Squared of 0.861",
         "Used OOB error to determine the optimal number of trees and max depth of the random forest to maximize generalization against unseen data",
