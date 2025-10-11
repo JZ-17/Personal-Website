@@ -34,30 +34,18 @@ const Intro = () => {
           </h1>
           <p className="hero-description">
             Hi! My name is Josh Zhang, and I am a current student at{" "}
-            <a
-              href="https://www.college.harvard.edu/"
-              target="_blank"
-              className="link"
-            >
-              Harvard University
-            </a>{" "}
+            <a href="https://www.college.harvard.edu/" target="_blank" className="link">Harvard University</a>{" "}
             studying a double major in{" "}
-            <a
-              href="https://seas.harvard.edu/computer-science/bachelors-degree-computer-science"
-              target="_blank"
-              className="link"
-            >
+            <a href="https://seas.harvard.edu/computer-science/bachelors-degree-computer-science" target="_blank" className="link">
               Computer Science
             </a>{" "}
             and{" "}
-            <a
-              href="https://statistics.fas.harvard.edu/"
-              target="_blank"
-              className="link"
-            >
+            <a href="https://statistics.fas.harvard.edu/" target="_blank" className="link">
               Statistics
-            </a>. I am actively seeking a 2025 fall internship. Feel free to
-            reach out!
+            </a>. Currently, I am taking a gap year working as a Fall Generative AI Intern at{" "}
+            <a href="https://scale.com/" target="_blank" className="link">Scale AI</a> and as a Spring Software Engineering Intern at{" "}
+            <a href="https://www.astranis.com/" target="_blank" className="link">Astranis Space Technologies (Y-Combinator 2016)</a>.
+            I am actively seeking a 2026 summer internship. Feel free to reach out!
           </p>
 
           {/* Buttons Section */}
