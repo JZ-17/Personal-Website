@@ -1,6 +1,22 @@
 export const experiences = [
   {
-    title: "Research Associate",
+    title: "Software Engineering Intern - Mission Engineering",
+    company: "Astranis Space Technologies (Y-Combinator 2016)",
+    description: [
+      "Incoming January 2026",
+    ],
+    link: "https://www.astranis.com/",
+  },
+  {
+    title: "Technical Advisor Intern - Generative AI",
+    company: "Scale AI",
+    description: [
+      "Just started!",
+    ],
+    link: "https://scale.com/",
+  },
+  {
+    title: "Research Assitant",
     company: "Project CETI",
     description: [
       "Worked with Professor Daniel Vogt and Harvard graduate students to devise and develop various whale tag iterations aimed at enhancing tag resilience for monitoring whale health, activity, and environmental conditions",
@@ -8,7 +24,7 @@ export const experiences = [
     link: "https://www.micro.seas.harvard.edu/copy-of-microrobotics",
   },
   {
-    title: "Research Associate Intern",
+    title: "Research Assistant Intern",
     company:
       "University of Virginia Engineering Department",
     description: [
