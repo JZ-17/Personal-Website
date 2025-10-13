@@ -14,7 +14,7 @@ export const project = [
       skills: ["Python", "NBA API", "Tensorflow", "Keras","Scikit-Learn",],
       link: null,
       github: "https://github.com/JZ-17/NESSIS",
-      paper: null,
+      paper: "/papers/NESSIS_2025.pdf",
     },
     {
       title: "Mass. Food Network",
