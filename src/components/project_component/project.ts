@@ -19,7 +19,7 @@ export const project = [
     {
       title: "Mass. Food Network",
       company: "Hacking Injustice 2025",
-      award: "Grand 1st Place Prize Winner",
+      award: "Overall 1st Place Prize Winner",
       accomplishment:
         "Developed an app that allows users to upload grocery lists, parses through vender input, and optimizes affordability through balanced cost-distance, per-item pricing, and proximity-focused matching",
       actions: [
