@@ -45,7 +45,7 @@ const Intro = () => {
             </a>. Currently, I am taking a gap year working as a Fall Generative AI Intern at{" "}
             <a href="https://scale.com/" target="_blank" className="link">Scale AI</a> and as a Spring Software Engineering Intern at{" "}
             <a href="https://www.astranis.com/" target="_blank" className="link">Astranis (Y-Combinator 2016)</a>.
-            I am actively seeking a 2026 summer internship. Feel free to reach out!
+            I am actively seeking a 2026 Summer internship. Feel free to reach out!
           </p>
 
           {/* Buttons Section */}
