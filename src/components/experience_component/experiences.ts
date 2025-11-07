@@ -11,7 +11,7 @@ export const experiences = [
     title: "Technical Advisor Intern - Generative AI",
     company: "Scale AI",
     description: [
-      "Just started!",
+      "Fine-tune and evaluate large-scale generative AI models for enterprise applications, enhancing multi-step reasoning, problem decomposition, and code synthesis",
     ],
     link: "https://scale.com/",
   },
