@@ -12,6 +12,7 @@ export const experiences = [
     company: "Scale AI",
     description: [
       "Fine-tune and evaluate large-scale generative AI models for enterprise applications, enhancing multi-step reasoning, problem decomposition, and code synthesis",
+      "Create controlled LLM failure frameworks, optimize and debug model-generated code, and develop evaluation rubrics to benchmark reasoning and code accuracy",
     ],
     link: "https://scale.com/",
   },
