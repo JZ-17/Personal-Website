@@ -8,7 +8,7 @@ export const experiences = [
     link: "https://www.astranis.com/",
   },
   {
-    title: "Technical Advisor Intern - Generative AI",
+    title: "Generative AI Intern",
     company: "Scale AI",
     description: [
       "Fine-tune and evaluate large-scale generative AI models for enterprise applications, enhancing multi-step reasoning, problem decomposition, and code synthesis",
