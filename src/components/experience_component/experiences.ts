@@ -18,7 +18,7 @@ export const experiences = [
     link: "https://scale.com/",
   },
   {
-    title: "Research Assitant",
+    title: "Research Assistant",
     company: "Project CETI",
     description: [
       "Worked with Professor Daniel Vogt and Harvard graduate students to devise and develop various whale tag iterations aimed at enhancing tag resilience for monitoring whale health, activity, and environmental conditions",
