@@ -31,8 +31,9 @@ export const experiences = [
     title: "Tutor",
     company: "Harvard Student Agencies",
     description: ["Led a weekly class of 30 high school students, guiding them through the process of writing research papers, from topic selection to final edits",
-                  "Provided individualized tutoring across various subjects, with a strong focus on SAT preparation, helping students improve their academic performance and test-taking strategies"],
-                  link: "https://tutoring.hsa.net/",
+                  "Provided individualized tutoring across various subjects, with a strong focus on SAT preparation, helping students improve their academic performance and test-taking strategies"
+                ],
+    link: "https://tutoring.hsa.net/",
   },
   {
     title: "Research Assistant Intern",
