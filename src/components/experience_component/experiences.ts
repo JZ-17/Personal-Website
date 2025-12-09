@@ -1,5 +1,3 @@
-import { desc } from "framer-motion/client";
-
 export const experiences = [
   {
     title: "Software Engineering Intern - Mission Engineering",
