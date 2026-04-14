@@ -1,9 +1,19 @@
 export const experiences = [
   {
+    title:'Software Engineering Intern',
+    company: 'Google',
+    description: [
+      "Incoming Summer 2026!"
+    ],
+    link: "https://cloud.google.com/",
+  },
+  {
     title: "Software Engineering Intern - Mission Engineering",
     company: "Astranis Space Technologies (Y-Combinator 2016)",
     description: [
-      "Incoming January 2026",
+      "Led the company's first-ever machine learning initiative, independently building an end-to-end anomaly detection system for satellite operators using temporal radio frequency signal and power chain telemetry data",
+      "Deployed 4 time-robust, beam-specific LSTM-based autoencoder models for the detection of customer-impacting single event upset anomalies using reconstruction error thresholding, achieving anomaly detection within the first minute of occurrence",
+      "Built a dual sliding-window system to operate anomaly detection models under real-world satellite conditions (e.g., maintenance windows, network plan changes, satellite operator changes, short and long-term anomalies), eliminating false positives in production",
     ],
     link: "https://www.astranis.com/",
   },
@@ -27,7 +37,7 @@ export const experiences = [
   },
   {
     title: "Tutor",
-    company: "Harvard Stuent Agencies",
+    company: "Harvard Student Agencies",
     description:[
       "Led a weekly class of 20 high school students, guiding them through the process of writing research papers, from topic selection to final edits",
       "Provided individualized tutoring across various subjects, with a strong focus on SAT preparation, helping students improve their academic performance and test-taking strategies"
